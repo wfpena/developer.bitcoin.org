@@ -15,7 +15,7 @@ To provide practical examples of the Bitcoin `peer-to-peer network <../devguide/
 Peer Discovery
 --------------
 
-When started for the first time, programs don’t know the IP addresses of any active full nodes. In order to discover some IP addresses, they query one or more DNS names (called :term:`DNS seeds <dns seed>`) hardcoded into Bitcoin Core and `BitcoinJ <http://bitcoinj.github.io>`__. The response to the lookup should include one or more `DNS A records <http://tools.ietf.org/html/rfc1035#section-3.2.2>`__ with the IP addresses of full nodes that may accept new incoming connections. For example, using the `Unix ``dig`` command <https://en.wikipedia.org/wiki/Dig_%28Unix_command%29>`__:
+When started for the first time, programs don’t know the IP addresses of any active full nodes. In order to discover some IP addresses, they query one or more DNS names (called :term:`DNS seeds <dns seed>`) hardcoded into Bitcoin Core and `BitcoinJ <http://bitcoinj.github.io>`__. The response to the lookup should include one or more `DNS A records <http://tools.ietf.org/html/rfc1035#section-3.2.2>`__ with the IP addresses of full nodes that may accept new incoming connections. For example, using the `Unix dig command <https://en.wikipedia.org/wiki/Dig_%28Unix_command%29>`__:
 
 ::
 
